@@ -6,3 +6,12 @@ authors: [ MrTibo ]
 description: Use OpenAI Moderations API to moderate chat
 commands:
   automod-reload:
+    description: Reload config
+    permission: automod.reload
+permissions:
+  automod.flags:
+    description: Get flag warnings
+    default: op
+  automod.reload:
+    description: Reload config
+    default: op

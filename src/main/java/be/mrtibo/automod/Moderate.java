@@ -18,7 +18,7 @@ public class Moderate {
 
         JsonObject obj = new JsonObject();
         obj.addProperty("input", message);
-        String inputJson = obj.getAsString();
+        String inputJson = String.valueOf(obj);
 
         try {
             URL apiUrl = new URL("https://api.openai.com/v1/moderations");
