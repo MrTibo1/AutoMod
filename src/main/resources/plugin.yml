@@ -1,0 +1,8 @@
+name: AutoMod
+version: '${project.version}'
+main: be.mrtibo.automod.Automod
+api-version: 1.19
+authors: [ MrTibo ]
+description: Use OpenAI Moderations API to moderate chat
+commands:
+  automod-reload:
